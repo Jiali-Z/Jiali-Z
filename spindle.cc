@@ -1,15 +1,9 @@
- * ---------------------------------------------------------------------
+ /* ---------------------------------------------------------------------
  *
- * Copyright (C) 1999 - 2019 by the deal.II authors
- *
- * This file is part of the deal.II library.
- *
- * The deal.II library is free software; you can use it, redistribute
- * it, and/or modify it under the terms of the GNU Lesser General
- * Public License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- * The full text of the license can be found in the file LICENSE.md at
- * the top level directory of deal.II.
+ * Milestone 1: Due: March 25, 2022
+ * - Create a spindle-like mesh 
+ * -A functioning time-independent Stoke solver. Use the method of manufactured
+ * solutions to validate that your code work 
  *
  * ---------------------------------------------------------------------
 
@@ -28,8 +22,22 @@
 
 using namespace dealii;
 
+void halfspindle_grid()
+{
+ Triangulation<2> tri;
+
+ const double inner_radius=0.5, outer_radius=0.1,half_length=1.0;
+ GridGenerator::truncated_cone(tri,inner_radius,outer_radius,half_length);
+ tri.refine_global(4);
+
+ std::ofstream out("half_spindle_1.svg");
+ GridOut       grid_out;
+ grid_out.write_svg(triangulation, out);
+std::cout << "Grid written to half_spindle_1.svg" << std::endl;
+}
+
 int main()
 {
-std::cout <<"something"
+halfspindle_grid();:
 }
 
