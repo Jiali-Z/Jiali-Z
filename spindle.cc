@@ -26,7 +26,7 @@ void halfspindle_grid()
 {
  Triangulation<2> tri;
 
- const double inner_radius=0.5, outer_radius=0.1,half_length=1.0;
+ const double inner_radius=0.5, outer_radius=0.1,half_length=0.4;
  GridGenerator::truncated_cone(tri,inner_radius,outer_radius,half_length);
  tri.refine_global(4);
 
