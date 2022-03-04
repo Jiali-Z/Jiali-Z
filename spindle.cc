@@ -32,12 +32,12 @@ void halfspindle_grid()
 
  std::ofstream out("half_spindle_1.svg");
  GridOut       grid_out;
- grid_out.write_svg(triangulation, out);
+ grid_out.write_svg(tri, out);
 std::cout << "Grid written to half_spindle_1.svg" << std::endl;
 }
 
 int main()
 {
-halfspindle_grid();:
+halfspindle_grid();
 }
 
