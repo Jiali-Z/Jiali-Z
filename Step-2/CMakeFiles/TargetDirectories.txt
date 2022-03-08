@@ -1,0 +1,11 @@
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/rebuild_cache.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/edit_cache.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/info.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/strip_comments.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/runclean.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/run.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/release.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/sign.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/debug.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/distclean.dir
+/Users/jiali/Documents/Programming/Math762/Project/Step-2/CMakeFiles/stoke_solver.dir
